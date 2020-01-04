@@ -15,9 +15,11 @@ body {
 }
 
 .header {
-	top: 0px;
+	/*top: 0px;*/
+	display: flex;
+	flex-flow: column;
 	width: 90%;
-	height: 150px;
+	height: 25vh;
 	background-color: red;
 	margin: auto;
 }
@@ -34,7 +36,6 @@ body {
 	
 	color: #feb236;
 	font-size: 1.2em;
-	font-weight: bold;
 	text-align: center;
 	position: relative;
 	top: 50%;
@@ -58,5 +59,11 @@ body {
 
 .main {
 	background-color: #3B2F2F;
-	display: flex;
+	color: teal;
+	margin: auto;
+	padding: 10px;
+	width: 90%;
+}
+.main > h3{
+	color: aqua;
 }
