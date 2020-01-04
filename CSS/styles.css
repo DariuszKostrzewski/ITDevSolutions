@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: #2E5894;
+	background-color: #1b272c;
 }
 
 .header {
@@ -20,7 +20,6 @@ body {
 	flex-flow: column;
 	width: 90%;
 	height: 25vh;
-	background-color: red;
 	margin: auto;
 }
 
@@ -29,12 +28,12 @@ body {
 	justify-content: center;
 	width: 100%;
 	height: 100%;
-	background-color: steelblue;
+	background-color: #182d3d;
 }
 
 .logo h2 {
 	
-	color: #feb236;
+	color: #68f19d;
 	font-size: 1.2em;
 	text-align: center;
 	position: relative;
@@ -47,8 +46,8 @@ body {
 	display: flex;
 	width: 100%;
 	height: 100%;
-	background-color: darkblue;
-	color: yellow;
+	background-color: #182d3d;
+	color: #33bbaa;
 }
 
 .nav p {
@@ -58,12 +57,13 @@ body {
 }
 
 .main {
-	background-color: #3B2F2F;
-	color: teal;
+	background-color: #182d3d;
+	color: #33bbaa;
 	margin: auto;
 	padding: 10px;
+	padding-left: 1em;
 	width: 90%;
 }
 .main > h3{
-	color: aqua;
+	color: #33bbaa;
 }
