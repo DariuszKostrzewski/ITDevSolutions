@@ -57,7 +57,7 @@ body {
 }
 
 .main {
-	background-color: #182d3d;
+	background: linear-gradient(90deg, hsl(209, 50%, 20%), hsl(207, 93%, 12%));
 	color: #33bbaa;
 	margin: auto;
 	padding: 10px;
